@@ -4,17 +4,20 @@ description: "Battle-tested API endpoints"
 ---
 
 <Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
+  This comprehensive API reference provides battle-tested endpoints for building scheduling and social interaction features. Our REST API enables you to manage users, follow relationships, and authentication seamlessly.
 </Note>
+
+<img className="rounded-2xl" src="data-modeling.png" />
 
 ## Welcome
 
-This API provides endpoints for managing users, meetings, follows, templates, and authentication, ensuring seamless scheduling and interaction within the platform.
+This API exposes endpoints to manage users, meetings, follow relationships, and authentication. It powers scheduling and interactions across the platform.
 
 ## Authentication
 
-Most API endpoints require authentication using Bearer tokens, except for certain endpoints like login and fetching public data, which are accessible without authentication. These details are specified in the OpenAPI documentation.
+Most endpoints require Bearer token authentication. Public routes such as login and fetching public-facing data do not require auth.
+
+Authentication is defined via the `bearerAuth` scheme in the OpenAPI spec:
 
 ```json
 "security": [
@@ -22,4 +25,3 @@ Most API endpoints require authentication using Bearer tokens, except for certai
     "bearerAuth": []
   }
 ]
-```
