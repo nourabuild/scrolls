@@ -1,0 +1,155 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Mint Starter Kit",
+  "colors": {
+    "primary": "#00A3FF",
+    "light": "#00A3FF",
+    "dark": "#00A3FF"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "anchors": [
+          {
+            "anchor": "Documentation",
+            "icon": "book-open-cover",
+            "tabs": [
+              {
+                "tab": "Guides",
+                "groups": [
+                  {
+                    "group": "Get Started",
+                    "pages": [
+                      "en/introduction",
+                      "en/quickstart",
+                      "en/development"
+                    ]
+                  },
+                  {
+                    "group": "Essentials",
+                    "pages": [
+                      "en/essentials/code",
+                      "en/essentials/images",
+                      "en/essentials/markdown",
+                      "en/essentials/navigation",
+                      "en/essentials/reusable-snippets",
+                      "en/essentials/settings"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "API Reference",
+                "groups": [
+                  {
+                    "group": "API Documentation",
+                    "pages": [
+                      "en/api-reference/introduction"
+                    ]
+                  },
+                  {
+                    "group": "Health",
+                    "pages": [
+                      "en/api-reference/endpoint/health/liveness",
+                      "en/api-reference/endpoint/health/readiness"
+                    ]
+                  },
+                  {
+                    "group": "Auth",
+                    "pages": [
+                      "en/api-reference/endpoint/auth/login",
+                      "en/api-reference/endpoint/auth/register",
+                      "en/api-reference/endpoint/auth/refresh-token"
+                    ]
+                  },
+                  {
+                    "group": "User",
+                    "pages": [
+                      "en/api-reference/endpoint/user/me",
+                      "en/api-reference/endpoint/user/search",
+                      "en/api-reference/endpoint/user/update",
+                      "en/api-reference/endpoint/user/delete",
+                      "en/api-reference/endpoint/user/recover",
+                      "en/api-reference/endpoint/user/account",
+                      "en/api-reference/endpoint/user/deletion-info"
+                    ]
+                  },
+                  {
+                    "group": "Follow",
+                    "pages": [
+                      "en/api-reference/endpoint/follow/follow",
+                      "en/api-reference/endpoint/follow/unfollow",
+                      "en/api-reference/endpoint/follow/following",
+                      "en/api-reference/endpoint/follow/followers",
+                      "en/api-reference/endpoint/follow/stats",
+                      "en/api-reference/endpoint/follow/status"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Help",
+                "pages": [
+                  "en/help/overview",
+                  "en/help/getting-started/app",
+                  "en/help/getting-started/payment",
+                  "en/help/getting-started/plan",
+                  "en/help/getting-started/advanced-features/account",
+                  "en/help/getting-started/advanced-features/data-privacy",
+                  "en/help/getting-started/advanced-features/device"
+                ]
+              },
+              {
+                "tab": "Changelog",
+                "pages": [
+                  "en/changelog/overview"
+                ]
+              }
+            ]
+          },
+          {
+            "anchor": "Community",
+            "href": "https://example.com/community",
+            "icon": "slack"
+          },
+          {
+            "anchor": "Blog",
+            "href": "https://example.com/blog",
+            "icon": "newspaper"
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://mintlify.com"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Dashboard",
+      "href": "https://mintlify.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "website": "https://mintlify.com",
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "facebook": "https://facebook.com/mintlify",
+      "telegram": "https://t.me/mintlify",
+      "instagram": "https://instagram.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  }
+}

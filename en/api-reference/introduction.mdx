@@ -1,0 +1,25 @@
+---
+title: "Introduction"
+description: "Battle-tested API endpoints"
+---
+
+<Note>
+  If you're not looking to build API reference documentation, you can delete
+  this section by removing the api-reference folder.
+</Note>
+
+## Welcome
+
+This API provides endpoints for managing users, meetings, follows, templates, and authentication, ensuring seamless scheduling and interaction within the platform.
+
+## Authentication
+
+Most API endpoints require authentication using Bearer tokens, except for certain endpoints like login and fetching public data, which are accessible without authentication. These details are specified in the OpenAPI documentation.
+
+```json
+"security": [
+  {
+    "bearerAuth": []
+  }
+]
+```
